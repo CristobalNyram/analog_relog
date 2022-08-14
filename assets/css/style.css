@@ -1,0 +1,70 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-color: rgb(43, 43, 43);
+}
+
+.clock
+{
+    height: 300px;
+    width: 300px;
+
+    border-radius: 150px;
+    border: 2px solid rgb(255, 255, 55);
+}
+
+#seconds-hand
+{
+    height: 130px;
+    width: 4px;
+    background-color: rgb(255, 238, 0);
+
+    position:relative;
+    left: 148px;
+    bottom: -20px;
+    opacity: 50%;
+    transform-origin:0 100% ;
+   
+}
+#minutes-hand
+{
+    height: 100px;
+    width: 6px;
+    background-color: rgb(199, 199, 199);
+
+    position:relative;
+    left: 148px;
+    bottom: 80px;
+    opacity: 50%;
+    transform-origin:0 100% ;
+
+}
+#hours-hand
+{
+    height: 70px;
+    width: 8px;
+    background-color: rgb(255, 255, 255);
+
+    position:relative;
+    left: 148px;
+    bottom:150px;
+    /* opacity: 50%; */
+
+    transform-origin:0 100% ;
+
+}
+#center
+{
+    background-color: blanchedalmond;
+    height: 25px;
+    width: 25px;
+    border-radius: 55px;
+    position: relative;
+    bottom:158px;
+    left: 140px;
+
+}
