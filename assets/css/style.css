@@ -1,11 +1,39 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,300;1,400;1,600&display=swap');
+/*
+font-family: 'Silkscreen', cursive;
+font-family: 'Source Sans Pro', sans-serif;
 
+*/
+
+body{
+    height: 100vh;
+    background-color: rgb(43, 43, 43);
+}
+
+
+
+
+/* 
+main title start 
+*/
+.main-title
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    font-family: 'Silkscreen', cursive;
+
+}
+
+/* main title end */
+
+.content-clock
+{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 100vh;
-    background-color: rgb(43, 43, 43);
 }
 
 .clock
